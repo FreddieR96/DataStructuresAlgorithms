@@ -8,7 +8,7 @@ Displaying data as a binary tree with elements getting smaller the further to th
 
 ## Binary Heap
 
-This min-heap binary heap places the smallest element at the top of the heap, with each element having two children which are larger than it. You can create a sorted array by popping elements into the array at O(n log n) efficiency as the last element in the array must be moved back into its proper place for each element.
+This min-heap places the smallest element at the top, with each element having two children which are larger than it. You can create a sorted array by popping elements into the array at O(n log n) efficiency as the last element in the array must be moved back into its proper place for each element.
 
 ## Hash
 
