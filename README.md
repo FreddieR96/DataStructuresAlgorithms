@@ -6,6 +6,10 @@ This project contains algorithms for sorting a random array of sortable data and
 
 Displaying data as a binary tree with elements getting smaller the further to the 'left' they are enables binary search. The algorithm can ignore half of the remaining subtree every time it descends the tree, because that subtree contrains items that are too big or too small to be the answer. This yields an efficiency tending towards O(log n) the 'fuller' the tree gets.
 
+## Binary Heap
+
+This min-heap binary heap places the smallest element at the top of the heap, with each element having two children which are larger than it. You can create a sorted array by popping elements into the array at O(n log n) efficiency as the last element in the array must be moved back into its proper place for each element.
+
 ## Hash
 
 Allows lookup of item value using its key. The index of a string key in the list is determined by the sum of the unicode of its characters modulus the array length. There is a linked list at each index which is queried at O(n) efficiency, but redistributing after the list reaches a threshold of 0.75 should stop large lists developing.
